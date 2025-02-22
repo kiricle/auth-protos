@@ -18,7 +18,7 @@ message RegisterRequest {
 }
 
 message RegisterResponse {
-    int64 user_id = 1;
+    int64 user_id = 1 [json_name="user_id"];
 }
 
 message LoginRequest {
